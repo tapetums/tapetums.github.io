@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>新しいエントリを投稿</title>
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="./bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="./css/cubemelon.css" />
+	<script type="text/javascript" src="./js/post.js"></script>
+</head>
+
+<body onload="init()">
+&nbsp;
+<table name="table_post"><tr><td>
+	<form method="post" action="post.html" id ="article_form">
+		<table name="top_link"><tr>
+			<td>
+				<a class="btn" href="index.html" style="background-color: white; color: #555555; box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.25);"><i class="fa fa-home fa-2x"></i> Home</a>
+			</td>
+			<td align="right">
+				<input type="file" id="draft_importer" accept="text/*" maxlength="65535" onchange="import_draft(this.files)" style="display: none;">
+				<span onclick="click_reader()"><a class="btn btn-success" style="box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.25);"><i class="fa fa-file"></i> Import Draft</a></span>
+			</td>
+		</tr></table>
+		<p>
+			<input type="checkbox" id="datetime_as" onclick="check_datetime_as()">
+			Date As:&nbsp;&nbsp;
+			<a name="sp_adjuster"></a>
+			<input type="date" id="post_date" value="1970-01-01" step="1" disabled="disabled">
+			<a name="sp_adjuster2"></a>
+			<input type="time" id="post_time" value="00:00:00"  step="1" disabled="disabled">
+			<a name="sp_adjuster">&nbsp;&nbsp;</a>
+			<input type="password" id="password" placeholder="password" required>
+		</p>
+		<p>
+			<input type="text" id="title" placeholder="タイトル" required>
+		</p>
+		<p>
+			<textarea form="article_form" id="article" cols="120" rows="24" wrap="off" maxlength="65535" placeholder="本文" required></textarea>
+		</p>
+		<table name="top_link"><tr>
+			<td>
+				<input type="submit" id="submit_button" style="display: none;">
+				<a class="btn btn-warning" style="box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.25);" onclick="click_submit()"><i class="fa fa-cloud-upload"></i> Submit</a>
+			</td>
+			<td align="right">
+				<a class="btn" href="https://twitter.com/" style="color: #159CEB;"><i class="fa fa-twitter-square fa-2x"></i></a>
+				<a class="btn" href="https://www.facebook.com/" style="color: #3B5998;"><i class="fa fa-facebook-square fa-2x"></i></a>
+				<a class="btn" href="https://plus.google.com/" style="color: #D84634;"><i class="fa fa-google-plus-square fa-2x"></i></a>
+			</td>
+		</tr></table>
+		<p>
+			<a style="font-size: small"><input type="file" id="draft_importer" accept="text/*" maxlength="65535" onchange="import_draft(this.files)"></a>
+		</p>
+	</form>
+	<div id="window_width" align="right"></div>
+</td></tr></table>
+&nbsp;
+</body>
+
+</html>

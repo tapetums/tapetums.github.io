@@ -1,0 +1,58 @@
+body
+{
+	background-image: url(../image/b007.gif);
+	//background-color: #F6F0DD;
+}
+
+table
+{
+	background-color: #FCFAF3;
+	box-shadow: 0.25em 0.25em 0.25em rgba(0, 0, 0, 0.25);
+
+	border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+table[name=table_post]
+{
+	font-size: small;
+}
+
+table[name=top_link]
+{
+	box-shadow: none;
+	vertical-align: top;
+
+	width: 100%;
+}
+
+td
+{
+	padding: 1em;
+}
+
+input
+{
+	border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+}
+
+input.file
+{
+	display: none;
+}
+
+textarea
+{
+	border: 2px;
+	border-style: inset;
+	border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+}
