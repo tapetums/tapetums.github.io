@@ -1,6 +1,7 @@
 body
 {
 	background-image: url(../image/b007.gif);
+    line-height: 1.75em;
 	//background-color: #F6F0DD;
 }
 
@@ -55,4 +56,28 @@ textarea
 	border-radius: 0.25em;
 	-webkit-border-radius: 0.25em;
 	-moz-border-radius: 0.25em;
+}
+
+span.product
+{
+    font-weight: bold;
+	font-size: 1.6em;
+    line-height: 2em;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h4
+{
+    line-height: 0.5em;
+}
+
+div.copyright
+{
+    font-size: 0.85em;
+    font-weight: bold;
+    text-align: center;
 }

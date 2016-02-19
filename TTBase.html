@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>CubeMelon Software</title>
+	<link rel="stylesheet" type="text/css" href="./css/cubemelon.css" />
+</head>
+
+<body>
+    <h1>TTBase 関連</h1>
+    <p><a href=./index.html>戻る</a></p>
+    <p align="center">TTBase に関する著作物を公開しています。</p>
+
+    <hr>
+
+    <span class="product"><a href="https://github.com/tapetums/TTBase/blob/master/TTBase.md">TTBase 仕様書</a> / <a href="https://github.com/tapetums/TTBase/blob/master/TTBase.English.md">The Specification (English)</a></span><br>
+    <p>
+        TTBaseのプラグインと本体に関する仕様書です。<br>
+        プラグイン作成の際はぜひこちらをご参照下さい。
+    </p>
+    <div class="date">Last updated: 2016.02.19</div>
+
+    <hr>
+
+    <span class="product"><a href="https://github.com/tapetums/TTBase/tree/master/TTBaseHost">hako</a></span>　 TTBase 互換アプリケーション - <b>Windows Vista/7/8/8.1/10 32/64-bit</b><br>
+    <p>
+        TTBaseプラグインの読み込み・実行ができます。<br>
+        64ビット版では、32/64ビット両方のプラグインが使用可能です。
+    </p>
+    <p>
+        TTBase とは異なり、本体は ホットキー、タイマー、フック の機能を持ちません。<br>
+        これらの機能をお使いの場合は、別途プラグインを導入して下さい。
+    </p>
+    <a href="https://raw.githubusercontent.com/tapetums/TTBase/master/TTBaseHost/ss/System.png"><img title="System" src ="https://raw.githubusercontent.com/tapetums/TTBase/master/TTBaseHost/ss/System.png" width="321" height="256"></a>
+    <a href="https://raw.githubusercontent.com/tapetums/TTBase/master/TTBaseHost/ss/Plugins.png"><img title="Plugins" src ="https://raw.githubusercontent.com/tapetums/TTBase/master/TTBaseHost/ss/Plugins.png" width="321" height="256"></a><br>
+    <a href="https://raw.githubusercontent.com/tapetums/TTBase/master/TTBaseHost/ss/Commands.png"><img title="Commands" src ="https://raw.githubusercontent.com/tapetums/TTBase/master/TTBaseHost/ss/Commands.png" width="321" height="256"></a><br>
+    <h3><a href="https://github.com/tapetums/TTBase/releases/tag/0.4.0.0h">version 0.4.0.0</a></h3>
+    <h4><a href="https://github.com/tapetums/TTBase/releases/tag/0.3.1.0h">version 0.3.1.0</a></h4>
+    <h4><a href="https://github.com/tapetums/TTBase/releases/tag/0.3.0.0h">version 0.3.0.0</a></h4>
+    <h4><a href="https://github.com/tapetums/TTBase/releases/tag/0.2.0.0h">version 0.2.0.0</a></h4>
+    <h4><a href="https://github.com/tapetums/TTBase/releases/tag/0.1.0.0h">version 0.1.0.0</a></h4>
+    <div class="remdme">
+        <a href="https://github.com/tapetums/TTBase/blob/master/TTBaseHost/ReadMe.md">Readme.md<a> / <a href="https://github.com/tapetums/TTBase/blob/master/TTBaseHost/ReadMe.English.md">English<a>
+    </div>
+
+    <hr>
+
+    <span class="product"><a href=""> </a></span>
+    <span class="product"><a href="https://github.com/tapetums/HotkeyCpp">HotkeyCpp</a></span>　TTBase用プラグイン - <b>Windows Vista/7/8/8.1/10 32/64-bit</b><br>
+    <p>
+        TTBase用 ホットキーランチャーです。<br>
+        hako 単体では ホットキーの機能を持ちませんので、こちらをお使い下さい。<br>
+    </p>
+    <p>
+        peach、hako にて 動作を確認しています。
+    </p>
+    <a href="https://raw.githubusercontent.com/tapetums/HotkeyCpp/master/ss/HotkeyCpp.png"><img title="ホットキー一覧" src ="https://raw.githubusercontent.com/tapetums/HotkeyCpp/master/ss/HotkeyCpp.png" width="241" height="166"></a>
+    <a href="https://raw.githubusercontent.com/tapetums/HotkeyCpp/master/ss/HotkeyCpp%20Settings.png"><img title="ホットキー設定" src ="https://raw.githubusercontent.com/tapetums/HotkeyCpp/master/ss/HotkeyCpp%20Settings.png" width="235" height="84"></a><br>
+    <h3><a href="https://github.com/tapetums/HotkeyCpp/releases/tag/0.2.0.0">version 0.2.0.0</a></h3>
+    <h4><a href="https://github.com/tapetums/HotkeyCpp/releases/tag/0.1.0.0">version 0.1.0.0</a></h4>
+
+    <hr>
+
+    <span class="product"><a href="https://github.com/tapetums/TTBase/tree/master/ExtSysPopup">ExtSysPopup</a></span>　TTBase用プラグイン - <b>Windows Vista/7/8/8.1/10 32/64-bit</b><br>
+    <p>
+        ホットキーもしくはウィンドウの特定領域を右クリックすると、便利なメニューを表示します。<br>
+        右クリックの認識範囲は .ini ファイルで指定します。詳しくは README.TXT をご覧下さい。
+    </p>
+    <p>
+        「常に手前」「透明度の設定」に関してはマウスカーソルのあるウィンドウの  トップレベルウィンドウに対して操作を行いますが、一部の MDI ウィンドウでは動作しないようです。閉じるボタン付近にマウスカーソルを移動すると反応しやすいようです。<br>
+        なお、「透明度の設定」は DirectX や OpenGL で直接描画しているウィンドウには効かないことがあります。
+    </p>
+    <p>
+        TTBase、TTBaseCpp、pbox、peach、hako にて 動作を確認しています。
+    </p>
+    <a href="https://raw.githubusercontent.com/tapetums/TTBase/master/ExtSysPopup/ss/ExtSyPopup.png"><img title="ポップアップメニュー" src ="https://raw.githubusercontent.com/tapetums/TTBase/master/ExtSysPopup/ss/ExtSyPopup.png"></a>
+    <h3><a href="https://github.com/tapetums/TTBase/releases/tag/1.2.0.0e">version 1.2.0.0</a></h3>
+    <h4><a href="https://github.com/tapetums/TTBase/releases/tag/1.1.0.0e">version 1.1.0.0</a></h4>
+    <h4><a href="https://github.com/tapetums/TTBase/releases/tag/1.0.0.2e">version 1.0.0.2</a></h4>
+    <h4><a href="https://github.com/tapetums/TTBase/releases/tag/1.0.0.1">version 1.0.0.1</a></h4>
+    <h4><a href="https://github.com/tapetums/TTBase/releases/tag/1.0.0">version 1.0.0</a></h4>
+
+    <hr>
+
+    <span class="product"><a href="https://github.com/tapetums/TTPowerBase">TTPowerBase</a></span>　TTBase用プラグイン - <b>Windows Vista/7/8/8.1/10 32/64-bit</b><br>
+    <p>
+        ホットキーで以下の操作が行えます。<br>
+        <div><b>シャットダウン / 再起動 / サインアウト / スリープ / 休止状態</b></div>
+    </p>
+    <p>
+        TTBase、TTBaseCpp、pbox、peach、hako にて 動作を確認しています。
+    </p>
+    <h3><a href="https://github.com/tapetums/HotkeyCpp/releases/tag/0.2.0.0">version 0.2.0.0</a></h3>
+    <h4><a href="https://github.com/tapetums/HotkeyCpp/releases/tag/0.1.0.0">version 0.1.0.0</a></h4>
+
+    <hr>
+
+    <span class="product"><a href="https://github.com/tapetums/TTBbridge">TTBBridge</a></span>　32/64ビット ブリッヂアプリケーション - <b>Windows Vista/7/8/8.1/10 64-bit</b><br>
+    <p>
+        32ビットの TTBaseプラグインを、64ビットの本体で読み込めるようにするためのアプリケーションです。<br>
+        hako と協業して動きます。
+    </p>
+    <p>
+        技術的には、WIndowsのプロセス間通信と共有メモリを用いています。<br>
+        仕様に関しては ReadMe.md をご覧下さい。
+    </p>
+    <p>
+        テスト用のミニプログラムを付属しています。
+    </p>
+    <a href="https://raw.githubusercontent.com/tapetums/TTBbridge/master/ss/TTBMiniHost.png"><img title="TTBMiniHost" src ="https://raw.githubusercontent.com/tapetums/TTBbridge/master/ss/TTBMiniHost.png" width="161" height="100"></a>
+    <div class="remdme">
+        <a href="https://github.com/tapetums/TTBbridge/blob/master/ReadMe.md">プロセス間通信 仕様書<a>
+    </div>
+
+    <hr>
+
+    <p><a href=./index.html>戻る</a></p>
+    <div class="copyright">Copyright (C) tapetums 2014-2016 All Rights Reserved.</div>
+</body>
+
+</html>
