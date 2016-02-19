@@ -1,8 +1,11 @@
 body
 {
-	background-image: url(../image/b007.gif);
+	background-image: url(../images/b007.gif);
+    width: 95%;
+    margin-right: auto;
+    margin-left : auto;
+    font-size: 0.9em;
     line-height: 1.75em;
-	//background-color: #F6F0DD;
 }
 
 table
